@@ -91,7 +91,7 @@ public class Practice {
             String word = words[i]; 
             if(word.charAt(0) == 'a' || word.charAt(0) == 'A')
             {
-                int charA = -1;
+                int charA = 0;
                 charA = charA + 1;
                 if(charA == NumWords) 
                 {
