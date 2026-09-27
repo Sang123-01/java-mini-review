@@ -16,8 +16,12 @@ public class Practice {
      * 
      * @param items an array of strings to print
      */
-    public static void printItems(String[] items) {
+    public static void printItems(String[] items) 
+    {
+        int NumItems = items.length;
+        for(int i = 0; i <)
         // TODO: Implement this method here!
+
     }
 
     /**
