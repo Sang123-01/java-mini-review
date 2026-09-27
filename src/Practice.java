@@ -21,7 +21,7 @@ public class Practice {
         int NumItems = items.length;
         for(int i = 0; i <= NumItems ; i++)
             {
-                
+                System.out.println(items(i));
             }
         // TODO: Implement this method here!
 
