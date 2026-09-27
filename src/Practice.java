@@ -19,7 +19,7 @@ public class Practice {
     public static void printItems(String[] items) 
     {
         int NumItems = items.length;
-        for(int i = 0; i <= NumItems ; i++)
+        for(int i = 0; i < NumItems ; i++)
             {
                 System.out.println(items[i]);
             }
@@ -55,9 +55,11 @@ public class Practice {
         // TODO: Delete the dummy return statement and implement this method here!
         if(b*2 < a)
         {
-            
+          return true;
+        }else
+        {
+          return false;
         }
-        return false;
     }
 
 
