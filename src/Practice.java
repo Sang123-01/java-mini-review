@@ -19,7 +19,10 @@ public class Practice {
     public static void printItems(String[] items) 
     {
         int NumItems = items.length;
-        for(int i = 0; i <)
+        for(int i = 0; i <= NumItems ; i++)
+            {
+                
+            }
         // TODO: Implement this method here!
 
     }
