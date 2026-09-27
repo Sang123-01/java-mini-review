@@ -85,6 +85,11 @@ public class Practice {
      */
     public static boolean allStartWithA(String[] words) {
         // TODO: Delete the dummy return statement and implement this method here!
+        int NumWords = words.length;
+        for(int i = 0; i<NumWords; i++)
+        {
+            
+        }
         return false;
     }
 
