@@ -91,7 +91,12 @@ public class Practice {
             String word = words[i]; 
             if(word.chartAt(0) == a || word.chartAt(0) == A)
             {
-                return true;
+                int charA =-1;
+                charA =+ 1;
+            }
+            if(charA = NumWords)
+            {
+                    return true;
             }
         }
         if(NumWords < 0)
