@@ -93,7 +93,7 @@ public class Practice {
             {
                 int charA = -1;
                 charA = charA + 1;
-                if(charA = NumWords)
+                if(charA == NumWords)
                 {
                     return true;
                 }
