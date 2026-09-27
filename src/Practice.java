@@ -88,7 +88,15 @@ public class Practice {
         int NumWords = words.length;
         for(int i = 0; i<NumWords; i++)
         {
-            
+            String word = words[i]; 
+            if(word.chartAt(0) == a || word.chartAt(0) == A)
+            {
+                return true;
+            }
+        }
+        if(NumWords < 0)
+        {
+            return true;
         }
         return false;
     }
